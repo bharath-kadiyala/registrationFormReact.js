@@ -1,0 +1,134 @@
+* {
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+.main-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 35px;
+  color: #ea580c;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.app-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+.firstName-con {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
+}
+
+.lastName-con {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
+}
+
+.label-sty {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.input-sty {
+  height: 30px;
+  width: 250px;
+  border-width: 1px;
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 14px;
+  color: #9aa5b1;
+}
+
+.input-bg {
+  height: 30px;
+  width: 250px;
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 14px;
+  background-color: #fef2f4;
+  border: 2px solid #ff0b37;
+}
+
+.error-msg {
+  font-size: 13px;
+  margin-top: 3px;
+  font-weight: bold;
+  color: #ff0b37;
+}
+
+.btn-con {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn-sty {
+  height: 30px;
+  width: 80px;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #ea580c;
+  color: #ffff;
+  border-radius: 10px;
+}
+
+.success-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-img {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 20px;
+}
+
+.success-pera {
+  font-size: 14px;
+  color: #475569;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.success-btn {
+  height: 30px;
+  width: 180px;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #ea580c;
+  color: #ffff;
+  border-radius: 10px;
+}
